@@ -1,6 +1,9 @@
 # cloud-services
 # AWS Translator service
 
+
+Amazon Translate uses advanced neural machine translation technology to provide high-quality and accurate translations between different languages. It supports a wide range of language pairs, including popular languages such as English, Spanish, French, German, Chinese, Japanese, and many more
+
  The translate_text function takes two parameters: text (the text to be translated) and lang_code (the target language code). It uses the translate.translate_text method from the boto3 library to perform the translation. The source language is set to 'auto', which means it will automatically detect the source language of the text.
 
 The lambda_handler function is the entry point for the Lambda function. It takes two parameters: event (the event data that triggered the Lambda function) and context (the runtime information of the Lambda function).
